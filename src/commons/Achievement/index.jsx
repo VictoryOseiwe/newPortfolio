@@ -11,7 +11,7 @@ function Achievement() {
   useEffect(() => {
     const timeOutId = setTimeout(() => {
       setExperience(5);
-      setClients(100);
+      setClients(1);
       setProjects(1.2);
     }, 1000);
 
@@ -23,8 +23,8 @@ function Achievement() {
   return (
     <>
       <div className="achievement-container">
-        <Card value={experience} text="Years of Experience" symbol="+" />
-        <Card value={clients} text="Clients worked with" symbol="+" />
+        <Card value={experience} text="Years of Experience" symbol="k" />
+        <Card value={clients} text="Clients worked with" symbol="k" />
         <Card value={projects} text="Projects completed" symbol="k" />
       </div>
     </>
