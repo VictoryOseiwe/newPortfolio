@@ -5,7 +5,7 @@ import { aboutMe } from "../../sources";
 function About() {
   return (
     <>
-      <div>
+      <div id="about">
         <div className="wrapper">
           <div>
             <h2 data-aos="fade-left" className="flex-center">

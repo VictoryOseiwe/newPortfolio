@@ -42,6 +42,7 @@ export const tabs = [
   { name: "Services", id: "services" },
   { name: "Projects", id: "projects" },
   { name: "Testimonials", id: "testimonials" },
+  { name: "Contact", id: "contact" },
 ];
 
 export const aboutMe = [

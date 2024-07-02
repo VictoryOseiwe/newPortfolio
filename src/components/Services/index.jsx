@@ -5,7 +5,7 @@ import { services } from "../../sources";
 function Services() {
   return (
     <>
-      <div className="wrapper service">
+      <div id="services" className="wrapper service">
         <h2 className="flex-center">
           <span data-aos="fade-right" className="gradient-text">
             My Services

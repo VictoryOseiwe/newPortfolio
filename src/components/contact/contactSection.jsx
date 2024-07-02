@@ -32,7 +32,7 @@ function ContactSection() {
 
   return (
     <>
-      <div className="contact wrapper">
+      <div id="contact" className="contact wrapper">
         <div className="location">
           {contact.map((item, index) => (
             <Mail key={index} title={item.title} content={item.content} />

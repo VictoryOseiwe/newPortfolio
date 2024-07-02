@@ -5,7 +5,7 @@ import { skill } from "../../sources";
 
 function Myskill() {
   return (
-    <div className="myskill">
+    <div id="skill" className="myskill">
       <h2 className="flex-center">
         <span data-aos="fade-left" className="gradient-text">
           My Skill
