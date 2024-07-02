@@ -78,3 +78,10 @@
     bottom: 100px;
   }
 }
+
+@media (max-width: 798px) {
+  .heroImage {
+    position: relative;
+    right: 95px;
+  }
+}
