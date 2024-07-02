@@ -11,3 +11,9 @@
   transition: var(--transition);
   color: var(--foreground);
 }
+
+@media (max-width: 800px) {
+  .card > p {
+    font-size: 8px;
+  }
+}
