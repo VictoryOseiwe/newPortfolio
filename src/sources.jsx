@@ -17,22 +17,22 @@ export const socialHandles = [
   {
     name: "Linkedin",
     icon: <FaLinkedin />,
-    link: "https://www.linkedin.com/",
+    link: "https://linkedin.com/in/victory-oseiwe",
   },
   {
     name: "Github",
     icon: <FaGithub />,
-    link: "https://github.com/",
+    link: "https://github.com/VictoryOseiwe",
   },
   {
     name: "Twitter",
     icon: <FaXTwitter />,
-    link: "",
+    link: "https://x.com/VictoryOseiwe",
   },
   {
     name: "Youtube",
     icon: <FaYoutube />,
-    link: "https://www.youtube.com/",
+    link: "https://www.youtube.com/@VictoryOseiwe",
   },
 ];
 
