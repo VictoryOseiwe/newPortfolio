@@ -1,0 +1,31 @@
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.inputSection {
+  background: var(--bg-accent);
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid var(--border-primary);
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.contactInput {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,12 @@
+.achievement-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* margin: 20px 0; */
+}
+
+@media (max-width: 1000px) {
+  /* .achievement-container {
+    grid-template-columns: repeat(1, 1fr);
+  } */
+}

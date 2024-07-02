@@ -1,0 +1,50 @@
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.serviceItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  background: var(--bg-secondary);
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.serviceItem > div > a {
+  text-decoration: none;
+  background: var(--bg-secondary);
+  border: 0.5px solid var(--foreground);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: var(--foreground);
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.serviceItem > div > a:hover {
+  background: var(--bg-accent);
+  transition: var(--transition);
+}
+
+.serviceItem > div {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 1000px) {
+  .service-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

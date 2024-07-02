@@ -1,0 +1,13 @@
+.card {
+  width: 100%;
+  border-radius: 10px;
+  background: var(--bg-accent);
+  padding: 20px;
+}
+
+.card:hover {
+  background: var(--bg-secondary);
+  transform: scale(1);
+  transition: var(--transition);
+  color: var(--foreground);
+}
