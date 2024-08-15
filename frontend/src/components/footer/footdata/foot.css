@@ -1,0 +1,15 @@
+.drop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropData:hover {
+  background: var(--bg-secondary);
+  transition: var(--transition);
+  color: var(--foreground);
+  padding: 5px 10px;
+  border-radius: 10px;
+}

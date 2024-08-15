@@ -1,0 +1,35 @@
+.abt-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: var(--bg-accent);
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid var(--border-primary);
+}
+
+.group-item {
+  background: var(--bg-secondary);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.group-item:hover {
+  background: var(--bg-accent);
+  transition: var(--transition);
+  color: var(--foreground);
+  border: 0.5px solid var(--foreground);
+}
+
+@media (max-width: 1000px) {
+  .group {
+    grid-template-columns: 100%;
+  }
+}
