@@ -1,0 +1,11 @@
+.card {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid var(--border-primary);
+}
+
+.card:hover {
+  background: var(--bg-primary);
+}

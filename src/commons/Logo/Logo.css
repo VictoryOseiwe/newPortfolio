@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo > h1:hover {
+  transition: var(--transition);
+  color: var(--foreground);
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--primary);
+}
+
+@media (max-width: 1000px) {
+  .icon {
+    font-size: 30px;
+  }
+  .logo > h1 {
+    font-size: 30px;
+  }
+}

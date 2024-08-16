@@ -1,0 +1,12 @@
+.handles-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 1326px) {
+  /* Adjust breakpoint as needed */
+  .handles-container {
+    display: none;
+  }
+}

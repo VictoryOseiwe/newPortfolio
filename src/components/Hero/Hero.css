@@ -1,0 +1,87 @@
+.gradient-text {
+  -webkit-text-fill-color: transparent;
+  background: var(--gradient-2);
+  -webkit-background-clip: text;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: auto 500px;
+  gap: 20px;
+  min-height: 100%;
+  padding: 40px 30px 0;
+}
+
+#hero {
+  margin-top: 75px;
+}
+
+.heroImage {
+  height: 465px;
+  width: 465px;
+}
+
+.btn-wrapper {
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+
+.btn-wrapper > a {
+  text-decoration: none;
+}
+
+.start {
+  background: var(--bg-primary);
+  border: 1px solid var(--primary);
+}
+
+.achievement {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  --webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+}
+
+.wrap {
+  padding: 30px 20px;
+}
+
+@media (max-width: 1000px) {
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .btn-wrapper {
+    justify-content: center;
+  }
+
+  .heroImage {
+    position: relative;
+    right: 70px;
+    border-radius: 30%;
+  }
+
+  .achievement {
+    position: relative;
+    bottom: 125px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .achievement {
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 360px) {
+  .heroImage {
+    position: relative;
+    right: 100px;
+  }
+}
